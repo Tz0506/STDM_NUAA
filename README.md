@@ -1,4 +1,4 @@
-# STDM_NUAA
+## [Survey]
 1. **Deep Learning for Spatio-Temporal Data Mining:A Survey.** [paper](https://github.com/Tz0506/STDM_NUAA/tree/main/paper/STDM.pdf)
 
     *Senzhang Wang, Jiannong Cao, Philip S. Yu.* 
