@@ -3,4 +3,4 @@
 
     *Senzhang Wang, Jiannong Cao, Philip S. Yu.* 
 
-<!-- 1. **Locally Balanced Inductive Matrix Completion for Demand-Supply Inference in Stationless Bike-Sharing Systems.** [paper](https://./paper/STDM.pdf) [code](https://github.com/szwangsummer/UBIMC.git)
+<!-- 1. **Locally Balanced Inductive Matrix Completion for Demand-Supply Inference in Stationless Bike-Sharing Systems.** [paper](https://./paper/STDM.pdf)
