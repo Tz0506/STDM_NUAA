@@ -59,7 +59,7 @@ methods in transportation domain: a review.** IET Intelligent Transport Systems,
 *  Event data comprise of discrete events occur- ring at point locations and times (e.g., crime events in the city and traffic accident events in a transportation network). An event can generally be characterized by a point location and time, which denotes where and when the event occurred, respectively. For example, a crime event can be characterized as such a tuple (ei,li,ti), where ei is the crime type, li is the location where the crime occurs and ti is the time when it occurs.  
 
 
-*  Fig. 1 shows an illustration of the event data. It shows three types of events denoted by different shapes of the symbol. ST event data are common in real- world applications such as criminology (incidence of crime and related events), epidemiology (disease outbreak events), transportation (car accident), and social network (social event and trending topics).
+*  Fig. (a) shows an illustration of the event data. It shows three types of events denoted by different shapes of the symbol. ST event data are common in real- world applications such as criminology (incidence of crime and related events), epidemiology (disease outbreak events), transportation (car accident), and social network (social event and trending topics).
 
 <div align=center>
 <img src="https://github.com/Tz0506/STDM_NUAA/blob/main/image/2.png" div align="center"  width="200"  alt="   "/><br/>
@@ -81,7 +81,7 @@ methods in transportation domain: a review.** IET Intelligent Transport Systems,
 *  Fig. 3 shows an example of the point reference data (e.g. sea surface temperature) in a continuous ST field at two time stamps. They are measured by the sensors at reference locations (shown as while circles) on the two time stamps. Note that the locations of the temperature sensors change over time.
 
 <div align=center>
-<img src="https://github.com/Tz0506/STDM_NUAA/blob/main/image/3.png" div align="center"  width="200"  alt=" "/><br/>
+<img src="https://github.com/Tz0506/STDM_NUAA/blob/main/image/3.png" div align="center"  width="300"  alt=" "/><br/>
 </div>
 
 
@@ -93,7 +93,7 @@ methods in transportation domain: a review.** IET Intelligent Transport Systems,
 *  Fig. 4 shows an example of the traffic flow raster data of a transportation network. Each road is deployed a traffic sensor to collect real time traffic flow data. The traffic flow data of all the road sensors in a whole day (24 hours) form a raster data.
 
 <div align=center>
-<img src="https://github.com/Tz0506/STDM_NUAA/blob/main/image/4.png" div align="center"  width="200"  alt=" "/><br/>
+<img src="https://github.com/Tz0506/STDM_NUAA/blob/main/image/4.png" div align="center"  width="300"  alt=" "/><br/>
 </div>
 
 
