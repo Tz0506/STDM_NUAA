@@ -56,7 +56,7 @@ methods in transportation domain: a review.** IET Intelligent Transport Systems,
     
 ## [2. Spatio-Temporal Data](#content)   
 ### [2.1 Event Data](#content)
-* Event data comprise of discrete events occur- ring at point locations and times (e.g., crime events in the city and traffic accident events in a transportation network). An event can generally be characterized by a point location and time, which denotes where and when the event occurred, respectively. For example, a crime event can be characterized as such a tuple (ei,li,ti), where ei is the crime type, li is the location where the crime occurs and ti is the time when it occurs. Fig. 1 shows an illustration of the event data. It shows three types of events denoted by different shapes of the symbol. ST event data are common in real- world applications such as criminology (incidence of crime and related events), epidemiology (disease outbreak events), transportation (car accident), and social network (social event and trending topics).*
+*  Event data comprise of discrete events occur- ring at point locations and times (e.g., crime events in the city and traffic accident events in a transportation network). An event can generally be characterized by a point location and time, which denotes where and when the event occurred, respectively. For example, a crime event can be characterized as such a tuple (ei,li,ti), where ei is the crime type, li is the location where the crime occurs and ti is the time when it occurs.        Fig. 1 shows an illustration of the event data. It shows three types of events denoted by different shapes of the symbol. ST event data are common in real- world applications such as criminology (incidence of crime and related events), epidemiology (disease outbreak events), transportation (car accident), and social network (social event and trending topics).*
 
 <div align=center>
 <img src="https://github.com/Tz0506/STDM_NUAA/blob/main/image/2.png" div align="center"  width="200"  alt="   "/><br/>
@@ -64,9 +64,40 @@ methods in transportation domain: a review.** IET Intelligent Transport Systems,
 
 
 ### [2.2 Trajectory Data](#content)
+*  Trajectories denote the paths traced by bodies moving in space over time. (e.g., the moving route of a bike trip or taxi trip). Trajectory data are usually collected by the sensors deployed on the moving objects that can periodically transmit the location of the object over time, such as GPS on a taxi.
+   Fig. (b) shows an illustration of two trajectories. 
+
+<div align=center>
+<img src="https://github.com/Tz0506/STDM_NUAA/blob/main/image/b.png" div align="center"  width="200"  alt=" "/><br/>
+</div>
+
+
+
 ### [2.3 Point Reference Data](#content)
+*  Point reference data consist of measurements of a continuous ST field such as tempera- ture, vegetation, or population over a set of moving refer- ence points in space and time.
+   Fig. 3 shows an example of the point reference data (e.g. sea surface temperature) in a continuous ST field at two time stamps. They are measured by the sensors at reference locations (shown as while circles) on the two time stamps. Note that the locations of the temperature sensors change over time.
+
+<div align=center>
+<img src="https://github.com/Tz0506/STDM_NUAA/blob/main/image/3.png" div align="center"  width="200"  alt=" "/><br/>
+</div>
+
+
+
+
+
 ### [2.4 Raster Data](#content)
+*  Raster data are the measurements of a contin- uous or discrete ST field that are recorded at fixed locations in space and at fixed time points. The major difference between point reference data and raster data is that the locations of the point reference data keep changing while the locations of the raster data are fixed. The locations and times for measuring the ST field can be regularly or irregularly distributed. 
+   Fig. 4 shows an example of the traffic flow raster data of a transportation network. Each road is deployed a traffic sensor to collect real time traffic flow data. The traffic flow data of all the road sensors in a whole day (24 hours) form a raster data.
+
+<div align=center>
+<img src="https://github.com/Tz0506/STDM_NUAA/blob/main/image/4.png" div align="center"  width="200"  alt=" "/><br/>
+</div>
+
+
+
 ### [2.5 Video Data](#content)
+*   A video that consists of a sequence of images can be also considered as a type of ST data. In the spatial domain, the neighbor pixels usually have similar RGB values and thus present high spatial correlations. In the temporal domain, the images of consecutive frames usually change smoothly and  present high temporal dependency. 
+    A video can be generally represented as a three dimensional tensor with one dimension representing time t and the other two representing an image. Actually, video data can be also considered as a special raster data if we assume that there is a “sensor” deployed at each pixel and at each frame the “sensors” will collect the RGB values. Deep learning based video data analysis is extremely hot and a large number of papers are published in recent years. Although we categorize videos as a type of ST data, we focus on reviewing related works from the perspective of data mining and video data analysis falls into the research areas of computer vision and pattern recognition. Thus in this survey we do not cover the ST data type of videos.
 
 
 ## [3. Models](#content)
